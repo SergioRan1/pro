@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int dias, mayor, menor, numDias,i;
+float ventas[31],totalVentas,promedio, ventaMayor;
+
+//Número de dias
+printf("Ventas Diarias-Mes\n");
+printf("Dias del mes: ");
+scanf("%d"‚&dias);
+//Cargar vector
+for (i=0;i‹dias;i++){
+printf("\nVentas dia %d: ", i+1);
+scanf("%f", &ventas [i]);
+}
+//Mostrar vector
+}
